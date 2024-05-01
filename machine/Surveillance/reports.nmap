@@ -1,0 +1,11 @@
+# Nmap 7.94 scan initiated Fri Apr 19 02:03:48 2024 as: nmap -p- --min-rate 5000 -sV -oN reports.nmap -Pn -sT 10.129.230.42
+Nmap scan report for 10.129.230.42
+Host is up (0.071s latency).
+Not shown: 65533 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    nginx 1.18.0 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 19 02:04:08 2024 -- 1 IP address (1 host up) scanned in 19.79 seconds

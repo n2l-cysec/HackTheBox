@@ -1,0 +1,3 @@
+# Dirsearch started Sat Apr 20 01:02:17 2024 as: /usr/share/dirsearch/dirsearch.py -u http://surveillance.htb
+
+301   178B   http://surveillance.htb/js    -> REDIRECTS TO: http://surveillance.htb/js/
