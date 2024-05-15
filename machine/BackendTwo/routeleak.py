@@ -1,0 +1,1 @@
+from fastapi import APIRouter\n\nfrom app.api.v1.endpoints import user, admin\n\n\napi_router = APIRouter()\napi_router.include_router(user.router, prefix=\"/user\", tags=[\"user\"])\napi_router.include_router(admin.router, prefix=\"/admin\", tags=[\"admin\"])\n\n\n

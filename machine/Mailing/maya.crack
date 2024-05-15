@@ -1,0 +1,33 @@
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory required for this attack: 491 MB
+
+Dictionary cache hit:
+* Filename..: /home/replican/Desktop/Prod/CyberSecurity/seclists/Passwords/Leaked-Databases/rockyou.txt
+* Passwords.: 14344384
+* Bytes.....: 139921497
+* Keyspace..: 14344384
+
+MAYA::MAILING:e6a1aa4dfd95ab9f:546ecae13a0b53bb1e7f662632271430:010100000000000000e3947642a7da01e6a5c7f43a9af34d000000000200080032004d005300510001001e00570049004e002d00360033005a003900390041004e004f0059005100580004003400570049004e002d00360033005a003900390041004e004f005900510058002e0032004d00530051002e004c004f00430041004c000300140032004d00530051002e004c004f00430041004c000500140032004d00530051002e004c004f00430041004c000700080000e3947642a7da0106000400020000000800300030000000000000000000000000200000b5b650195ccf25da9e362f08460df10a6043234f3b80de71cd2b446a1f46ff9d0a001000000000000000000000000000000000000900200063006900660073002f00310030002e00310030002e00310034002e00340035000000000000000000:m4y4ngs4ri
+
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 5600 (NetNTLMv2)
+Hash.Target......: MAYA::MAILING:e6a1aa4dfd95ab9f:546ecae13a0b53bb1e7f...000000
+Time.Started.....: Thu May 16 03:42:48 2024 (1 sec)
+Time.Estimated...: Thu May 16 03:42:49 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Base.......: File (/home/replican/Desktop/Prod/CyberSecurity/seclists/Passwords/Leaked-Databases/rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........: 19633.9 kH/s (3.17ms) @ Accel:1024 Loops:1 Thr:64 Vec:1
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 7340032/14344384 (51.17%)
+Rejected.........: 0/7340032 (0.00%)
+Restore.Point....: 5505024/14344384 (38.38%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#1....: minterwint -> ina-123456
+Hardware.Mon.#1..: Temp: 52c Fan: 49% Util: 19% Core:1837MHz Mem:7300MHz Bus:16
+
+Started: Thu May 16 03:42:42 2024
+Stopped: Thu May 16 03:42:49 2024
