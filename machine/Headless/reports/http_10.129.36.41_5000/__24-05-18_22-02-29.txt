@@ -1,0 +1,4 @@
+# Dirsearch started Sat May 18 22:05:50 2024 as: /usr/share/dirsearch/dirsearch.py -u http://10.129.36.41:5000
+
+401   317B   http://10.129.36.41:5000/dashboard
+200     2KB  http://10.129.36.41:5000/support

@@ -1,0 +1,10 @@
+# Dirsearch started Thu May 16 05:35:54 2024 as: /usr/share/dirsearch/dirsearch.py -u http://solarlab.htb
+
+400   157B   http://solarlab.htb/\..\..\..\..\..\..\..\..\..\etc\passwd
+403   555B   http://solarlab.htb/assets/
+301   169B   http://solarlab.htb/assets    -> REDIRECTS TO: http://solarlab.htb/assets/
+301   169B   http://solarlab.htb/images    -> REDIRECTS TO: http://solarlab.htb/images/
+403   555B   http://solarlab.htb/images/
+400   157B   http://solarlab.htb/index.php::$DATA
+400   157B   http://solarlab.htb/Trace.axd::$DATA
+400   157B   http://solarlab.htb/web.config::$DATA

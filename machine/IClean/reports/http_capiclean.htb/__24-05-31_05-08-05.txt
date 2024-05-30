@@ -1,0 +1,9 @@
+# Dirsearch started Fri May 31 05:11:19 2024 as: /usr/share/dirsearch/dirsearch.py -u http://capiclean.htb
+
+200     5KB  http://capiclean.htb/about
+302   189B   http://capiclean.htb/dashboard    -> REDIRECTS TO: /
+200     2KB  http://capiclean.htb/login
+302   189B   http://capiclean.htb/logout    -> REDIRECTS TO: /
+403   278B   http://capiclean.htb/server-status
+403   278B   http://capiclean.htb/server-status/
+200     8KB  http://capiclean.htb/services
