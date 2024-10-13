@@ -1,0 +1,35 @@
+# Nmap 7.95 scan initiated Mon Jul 15 21:26:13 2024 as: nmap -p- --min-rate 5000 -sV -oN 10.129.26.140.reports.nmap --verbose 10.129.26.140
+Nmap scan report for 10.129.26.140
+Host is up (0.038s latency).
+Not shown: 65510 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Simple DNS Plus
+80/tcp    open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2024-07-15 14:26:59Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: ghost.htb0., Site: Default-First-Site-Name)
+443/tcp   open  https?
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: ghost.htb0., Site: Default-First-Site-Name)
+1433/tcp  open  ms-sql-s      Microsoft SQL Server 2022 16.00.1000
+2179/tcp  open  vmrdp?
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: ghost.htb0., Site: Default-First-Site-Name)
+3269/tcp  open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: ghost.htb0., Site: Default-First-Site-Name)
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8008/tcp  open  http          nginx 1.18.0 (Ubuntu)
+9389/tcp  open  mc-nmf        .NET Message Framing
+49443/tcp open  unknown
+49664/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49671/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+60666/tcp open  msrpc         Microsoft Windows RPC
+60720/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: DC01; OSs: Windows, Linux; CPE: cpe:/o:microsoft:windows, cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 15 21:27:56 2024 -- 1 IP address (1 host up) scanned in 102.65 seconds

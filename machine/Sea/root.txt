@@ -1,0 +1,1 @@
+root: forwarding port 8080 and login with u/p user amay, intercept post requests and command injection in log_file= parameter

@@ -1,0 +1,26 @@
+                  __
+  ___  ___  ___ _/ /  __ __
+ / _ \/ _ \/ _ \/ _ \/ // /
+/_//_/\_,_/\_,_/_.__/\_,_/
+
+                projectdiscovery.io
+
+[INF] Current naabu version 2.3.1 (latest)
+[INF] Running CONNECT scan with non root privileges
+10.129.26.126:22
+210.129.26.126:80
+[INF] Found 2 ports on host 10.129.26.126 (10.129.26.126)
+[INF] Running nmap command: -sV -p 80,22 10.129.26.126
+Starting Nmap 7.95 ( https://nmap.org ) at 2024-07-15 16:43 WIB
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 1 undergoing Ping Scan
+Ping Scan Timing: About 100.00% done; ETC: 16:43 (0:00:00 remaining)
+Nmap scan report for 10.129.26.126
+Host is up (0.049s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.52
+Service Info: Host: 127.0.1.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.71 seconds

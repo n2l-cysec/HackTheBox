@@ -1,0 +1,7 @@
+# Dirsearch started Tue Jun 25 17:02:20 2024 as: /usr/share/dirsearch/dirsearch.py -u http://axlle.htb:5985/
+
+403   312B   http://axlle.htb:5985/%2e%2e//google.com
+403   312B   http://axlle.htb:5985/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+403   312B   http://axlle.htb:5985/\..\..\..\..\..\..\..\..\..\etc\passwd
+403   312B   http://axlle.htb:5985/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+405     0B   http://axlle.htb:5985/wsman

@@ -1,0 +1,38 @@
+# Dirsearch started Sun Aug 25 10:58:16 2024 as: /usr/share/dirsearch/dirsearch.py -u http://10.129.103.91
+
+403   199B   http://10.129.103.91/%3f/
+403   199B   http://10.129.103.91/.ht_wsr.txt
+403   199B   http://10.129.103.91/.htaccess.bak1
+403   199B   http://10.129.103.91/.htaccess.orig
+403   199B   http://10.129.103.91/.htaccess.sample
+403   199B   http://10.129.103.91/.htaccess.save
+403   199B   http://10.129.103.91/.htaccess_extra
+403   199B   http://10.129.103.91/.htaccess_orig
+403   199B   http://10.129.103.91/.htaccessBAK
+403   199B   http://10.129.103.91/.htaccess_sc
+403   199B   http://10.129.103.91/.htaccessOLD
+403   199B   http://10.129.103.91/.htm
+403   199B   http://10.129.103.91/.html
+403   199B   http://10.129.103.91/.htaccessOLD2
+403   199B   http://10.129.103.91/.htpasswd_test
+403   199B   http://10.129.103.91/.httr-oauth
+403   199B   http://10.129.103.91/.htpasswds
+403   199B   http://10.129.103.91/.php
+200     3KB  http://10.129.103.91/404
+403   199B   http://10.129.103.91/admin%20/
+200     3KB  http://10.129.103.91/contact.php
+301   234B   http://10.129.103.91/data    -> REDIRECTS TO: http://10.129.103.91/data/
+403   199B   http://10.129.103.91/data/
+403   199B   http://10.129.103.91/data/files/
+403   199B   http://10.129.103.91/login.wdm%20
+301   238B   http://10.129.103.91/messages    -> REDIRECTS TO: http://10.129.103.91/messages/
+403   199B   http://10.129.103.91/New%20Folder
+403   199B   http://10.129.103.91/New%20folder%20(2)
+403   199B   http://10.129.103.91/phpliteadmin%202.php
+301   237B   http://10.129.103.91/plugins    -> REDIRECTS TO: http://10.129.103.91/plugins/
+403   199B   http://10.129.103.91/plugins/
+403   199B   http://10.129.103.91/Read%20Me.txt
+403   199B   http://10.129.103.91/server-status
+403   199B   http://10.129.103.91/server-status/
+403   199B   http://10.129.103.91/themes/
+301   236B   http://10.129.103.91/themes    -> REDIRECTS TO: http://10.129.103.91/themes/

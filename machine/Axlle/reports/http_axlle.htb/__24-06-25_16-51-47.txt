@@ -1,0 +1,11 @@
+# Dirsearch started Tue Jun 25 16:54:27 2024 as: /usr/share/dirsearch/dirsearch.py -u http://axlle.htb/
+
+301   143B   http://axlle.htb/js    -> REDIRECTS TO: http://axlle.htb/js/
+403   312B   http://axlle.htb/%2e%2e//google.com
+403   312B   http://axlle.htb/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+403   312B   http://axlle.htb/\..\..\..\..\..\..\..\..\..\etc\passwd
+403     1KB  http://axlle.htb/assets/
+301   147B   http://axlle.htb/assets    -> REDIRECTS TO: http://axlle.htb/assets/
+403   312B   http://axlle.htb/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+301   144B   http://axlle.htb/css    -> REDIRECTS TO: http://axlle.htb/css/
+403     1KB  http://axlle.htb/js/

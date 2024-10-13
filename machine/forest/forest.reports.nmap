@@ -1,0 +1,34 @@
+# Nmap 7.95 scan initiated Sun Aug 25 12:06:29 2024 as: nmap -p- --min-rate 5000 -sV -oN forest.reports.nmap --verbose forest.htb
+Increasing send delay for 10.129.95.210 from 0 to 5 due to 201 out of 668 dropped probes since last increase.
+Nmap scan report for forest.htb (10.129.95.210)
+Host is up (0.043s latency).
+Not shown: 65512 closed tcp ports (reset)
+PORT      STATE SERVICE      VERSION
+53/tcp    open  domain       Simple DNS Plus
+88/tcp    open  kerberos-sec Microsoft Windows Kerberos (server time: 2024-08-25 05:13:38Z)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+389/tcp   open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: HTB)
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+5985/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+9389/tcp  open  mc-nmf       .NET Message Framing
+47001/tcp open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc        Microsoft Windows RPC
+49665/tcp open  msrpc        Microsoft Windows RPC
+49666/tcp open  msrpc        Microsoft Windows RPC
+49667/tcp open  msrpc        Microsoft Windows RPC
+49671/tcp open  msrpc        Microsoft Windows RPC
+49680/tcp open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+49681/tcp open  msrpc        Microsoft Windows RPC
+49685/tcp open  msrpc        Microsoft Windows RPC
+49697/tcp open  msrpc        Microsoft Windows RPC
+Service Info: Host: FOREST; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug 25 12:07:38 2024 -- 1 IP address (1 host up) scanned in 68.66 seconds

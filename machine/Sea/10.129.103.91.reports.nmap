@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Sun Aug 25 10:53:49 2024 as: nmap -p- --min-rate 5000 -sV -oN 10.129.103.91.reports.nmap --verbose 10.129.103.91
+Nmap scan report for 10.129.103.91
+Host is up (0.038s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug 25 10:54:09 2024 -- 1 IP address (1 host up) scanned in 20.19 seconds

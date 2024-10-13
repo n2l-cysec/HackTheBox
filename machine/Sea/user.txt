@@ -1,0 +1,1 @@
+user: xss to rce one click using public cve ( use ferox buster and look in readme.md themes bike )
